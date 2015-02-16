@@ -1,10 +1,13 @@
 {
     "name": "rezakhalafi/get",
-    "description": "",
+    "description": "Hello world package",
+    "license": "MIT",
+    "keywords": ["hello","world","package","iran"],
     "authors": [
         {
             "name": "rezakhalafi",
-            "email": "r.khalafi65@gmail.com"
+            "email": "r.khalafi65@gmail.com",
+            "homepage": "http://www.mrdeveloper.ir/"
         }
     ],
     "require": {
@@ -19,5 +22,6 @@
             "Rezakhalafi\\Get\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }
